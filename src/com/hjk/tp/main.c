@@ -100,8 +100,8 @@ int get_menu_option() {
 }
 
 char *solicitar_dato(int longitud) {
-    if (longitud < 2) {
-        longitud = 2;
+    if (longitud < 4) {
+        longitud = 4;
     }
 
     fflush(stdin);
