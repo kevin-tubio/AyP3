@@ -290,8 +290,8 @@ materia *buscar_materia(list *pLista_materias) {
 
 int solicitar_confirmacion() {
     fflush(stdin);
-    char option[2];
-    fgets(option, 2, stdin);
+    char option[4];
+    fgets(option, 4, stdin);
     fflush(stdin);
 
     return strcmp(option, "s") == 0;
