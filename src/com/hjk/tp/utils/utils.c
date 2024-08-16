@@ -1,5 +1,5 @@
 #include <string.h>
-#include <malloc.h>
+#include <stdlib.h>
 
 char *new_string(char const *string) {
     char *new_string = malloc(sizeof(char) * (strlen(string) + 1));

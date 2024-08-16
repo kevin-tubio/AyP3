@@ -32,7 +32,7 @@ void estudiante_print(estudiante *alumno) {
     printf("Nombre: %s", alumno->nombre);
     printf("Apellido: %s", alumno->apellido);
     printf("Edad: %d\n", alumno->edad);
-    printf("Legajo: %d\n\n", alumno->legajo);
+    printf("Legajo: %ld\n\n", alumno->legajo);
 }
 
 void anotarse_materia(estudiante *pEstudiante, materia *pMateria) {
